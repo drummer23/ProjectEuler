@@ -19,5 +19,5 @@ for ($i = 3; $i < 1000; $i ++) {
 
 $end = microtime(true);
 
-echo 'result . ' . $sum;
-echo 'duration ' . ($start-$end) * 1000;
+echo 'result  ' . $sum . ' ' . PHP_EOL;
+echo 'duration ' . (float)($end-$start);
